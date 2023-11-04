@@ -19,7 +19,7 @@ function Header() {
         <div className="flex flex-row mt-32  w-11/12 justify-between border-t-2 border-white text-center">
           <div>
             <p className="text-xl">Адрес</p>
-            <p className="mt-1">Киров,ул.Капитана Дорофеева</p>
+            <p className="mt-1">Киров, ул.Капитана Дорофеева</p>
           </div>
           <div className="">
             <p className="text-xl">Телефон</p>

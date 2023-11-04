@@ -15,15 +15,17 @@ function Education() {
                   FreeCodeCamp - JavaScript Algorithms and Data Structures
                 </p>
                 <p>
-                  <a href="https://www.freecodecamp.org/certification/dmp91/javascript-algorithms-and-data-structures">
+                  <a
+                    href="https://www.freecodecamp.org/certification/dmp91/javascript-algorithms-and-data-structures"
+                    className="underline"
+                  >
                     посмотреть сертификат
                   </a>
                 </p>
                 <p>
-                  В 2022 году "загорелся" сменить профессиональный род
-                  деятельности и увлекся программированием.После
-                  самостоятельного изучения основ HTML/CSS, выбор пал на
-                  JavaScript
+                  В 2022 году "загорелся" сменить род деятельности - увлекся
+                  программированием. После самостоятельного изучения основ HTML
+                  и CSS выбор пал на JavaScript и FreeCodeCamp.
                 </p>
               </div>
             </li>
@@ -34,13 +36,16 @@ function Education() {
                   FreeCodeCamp - Frontend Development Libraries
                 </p>
                 <p>
-                  <a href="https://www.freecodecamp.org/certification/dmp91/front-end-development-libraries">
+                  <a
+                    href="https://www.freecodecamp.org/certification/dmp91/front-end-development-libraries"
+                    className="underline"
+                  >
                     посмотреть сертификат
                   </a>
                 </p>
                 <p>
-                  После изучения "чистого" JavaScript, захотело углубится еще
-                  глубже во Frontend и все что с ним связано{" "}
+                  Изучив "чистый" JavaScript, захотел углубиться в один из
+                  фреймворков JS и во все, что связано с frontend.
                 </p>
               </div>
             </li>
@@ -50,8 +55,8 @@ function Education() {
                 <p className="text-2xl font-semibold">Самообразование</p>
                 <p>
                   Я провожу большую часть свободного времени, изучая тонкости
-                  Web-технологий,углубился в backend, создаваю приложения,читаю
-                  соответсвующую литературу.
+                  Web-технологий и разработки backend. Создаю приложения, читаю
+                  тематическую литературу.
                 </p>
               </div>
             </li>
