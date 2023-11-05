@@ -7,7 +7,7 @@ function Header() {
           src="../../avatar4.jpg"
         />
       </div>
-      <div className="basis-3/4   text-white">
+      <div className="basis-3/4 text-white lg:ml-20">
         <div>
           <h1 className="text-7xl mt-10 font-semibold">
             Перешеин Дмитрий Игоревич
