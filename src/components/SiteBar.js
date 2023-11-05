@@ -4,7 +4,7 @@ function SiteBar(props) {
       <img src={props.el.img} className="border-2 border-white" />
       <h4 className="text-xl mt-3 font-bold underline">{props.el.name}</h4>
       <p>
-        <a href={props.el.site} className="underline">
+        <a href={props.el.site} className="underline" target="_blank">
           посмотреть сайт
         </a>
       </p>
@@ -14,7 +14,7 @@ function SiteBar(props) {
       <p>{props.el.stack}</p>
       {props.el.frontend ? (
         <p>
-          <a href={props.el.frontend} className="underline">
+          <a href={props.el.frontend} className="underline" target="_blank">
             посмореть репозиторий frontend
           </a>
         </p>
@@ -23,7 +23,7 @@ function SiteBar(props) {
       )}
       {props.el.backend ? (
         <p>
-          <a href={props.el.backend} className="underline">
+          <a href={props.el.backend} className="underline" target="_blank">
             посмореть репозиторий backend
           </a>
         </p>

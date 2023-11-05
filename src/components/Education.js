@@ -17,6 +17,7 @@ function Education() {
                 <p>
                   <a
                     href="https://www.freecodecamp.org/certification/dmp91/javascript-algorithms-and-data-structures"
+                    target="_blank"
                     className="underline"
                   >
                     посмотреть сертификат
@@ -38,6 +39,7 @@ function Education() {
                 <p>
                   <a
                     href="https://www.freecodecamp.org/certification/dmp91/front-end-development-libraries"
+                    target="_blank"
                     className="underline"
                   >
                     посмотреть сертификат
