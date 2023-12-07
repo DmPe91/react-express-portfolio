@@ -1,9 +1,9 @@
 function Header() {
   return (
     <header className="bg-slate-800  border-b-4 border-white md:flex flex-row ">
-      <div className="basis-1/4 ">
+      <div className="basis-1/4">
         <img
-          className="rounded-full w-64 h-72 m-10 border-4 border-white"
+          className="rounded-full w-64 h-72 ml-auto mr-auto md:m-10 border-4 border-white"
           src="../../avatar4.jpg"
         />
       </div>
