@@ -3,13 +3,13 @@ function Header() {
     <header className="bg-slate-800  border-b-4 border-white md:flex flex-row ">
       <div className="basis-1/4">
         <img
-          className="rounded-full w-64 h-72 ml-auto mr-auto md:m-10 border-4 border-white"
+          className="rounded-full lg:w-64 lg:h-72 md:w-50 md:h-60  ml-auto mr-auto md:m-10 border-4 border-white"
           src="../../avatar4.jpg"
         />
       </div>
-      <div className="basis-3/4 text-white  lg:ml-20 ">
+      <div className="basis-3/4 text-white  lg:ml-20  md:text-center lg:text-left">
         <div className="">
-          <h1 className="text-3xl md:text-7xl  mt-10 font-semibold">
+          <h1 className="text-3xl md:text-5xl lg:text-7xl  mt-10 font-semibold">
             Перешеин Дмитрий Игоревич
           </h1>
           <h2 className="md:text-xl mt-3 font-bold underline">
