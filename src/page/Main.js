@@ -11,24 +11,26 @@ function Main() {
     <div className="max-w-screen-2xl ml-auto mr-auto">
       <Header />
       <Description />
-      <div className="bg-slate-800 flex flex-row border-b-4 border-white text-white">
-        <div className="m-10">
-          <h3 className="text-5xl font-semibold">Навыки</h3>
-          <p className="text-2xl font-semibold">Что я умею?</p>
+      <div className="bg-slate-800 md:flex flex-row border-b-4 border-white text-white">
+        <div className="p-10">
+          <h3 className="text-3xl md:text-5xl font-semibold">Навыки</h3>
+          <p className="text-xl md:text-2xl font-semibold">Что я умею?</p>
         </div>
-        <div className="grid grid-cols-2 ">
+        <div className="md:grid grid-cols-2 ">
           {infoSkills.map((el) => (
             <SkillsBar info={el} />
           ))}
         </div>
       </div>
       <Education />
-      <div className="bg-slate-800 flex flex-row border-b-4 border-white text-white">
-        <div className="m-10">
-          <h3 className="text-5xl font-semibold">Портфолио</h3>
-          <p className="text-2xl font-semibold">Примеры моих работ</p>
+      <div className="bg-slate-800 md:flex flex-row border-b-4 border-white text-white">
+        <div className="p-10">
+          <h3 className="text-3xl md:text-5xl font-semibold">Портфолио</h3>
+          <p className="text-xl md:text-2xl font-semibold">
+            Примеры моих работ
+          </p>
         </div>
-        <div className="grid grid-cols-2">
+        <div className="md:grid grid-cols-2">
           {infoSite.map((el) => (
             <SiteBar el={el} />
           ))}

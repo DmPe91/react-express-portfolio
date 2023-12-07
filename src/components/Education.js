@@ -1,10 +1,10 @@
 function Education() {
   return (
     <div>
-      <div className=" bg-slate-900 flex flex-row border-b-4 border-white text-white">
-        <div className="m-10">
-          <h3 className="text-5xl font-semibold">Образование</h3>
-          <p className="text-2xl font-semibold">Где получаю знания?</p>
+      <div className=" bg-slate-900 md:flex flex-row border-b-4 border-white text-white">
+        <div className="p-10">
+          <h3 className="text-2xl md:text-5xl font-semibold">Образование</h3>
+          <p className="text-xl font-semibold">Где получаю знания?</p>
         </div>
         <div>
           <ul className="m-10">

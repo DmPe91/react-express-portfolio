@@ -1,6 +1,6 @@
 function SkillsBar(props) {
   return (
-    <div className="m-10">
+    <div className="p-10">
       <div>
         <div className="flex flex-row">
           <img src={props.info.avatar} className="mr-2" />

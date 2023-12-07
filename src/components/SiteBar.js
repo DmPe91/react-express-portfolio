@@ -26,6 +26,10 @@ function SiteBar(props) {
           <a href={props.el.backend} className="underline" target="_blank">
             посмореть репозиторий backend
           </a>
+          <p>
+            Backend сайта выложен на Render.com и работает не стабильно,
+            подгрузку данных придется немного подождать)))
+          </p>
         </p>
       ) : (
         ""
