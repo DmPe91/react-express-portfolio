@@ -1,6 +1,6 @@
 function Description() {
   return (
-    <div className="bg-slate-900 md:flex flex-row md:border-b-4 border-white text-white">
+    <div className="bg-slate-900 md:flex flex-row border-b-4 border-white text-white">
       <div className="p-10">
         <h3 className="text-3xl md:text-5xl font-semibold">Знакомство</h3>
         <p className="text-xl md:text-2xl font-semibold">Кто я такой?</p>
