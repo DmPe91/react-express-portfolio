@@ -1,9 +1,4 @@
-import {
-  FaGithub,
-  FaServer,
-  FaLaptopCode,
-  FaExternalLinkAlt,
-} from "react-icons/fa";
+import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 import useScrollAnimation from "../hooks/useScrollAnimation";
 
 function SiteBar(props) {

@@ -20,7 +20,12 @@ function Education({ info }) {
                 <p>{el.date}</p>
                 <p className="text-2xl font-semibold">{el.name}</p>
                 {el.link && (
-                  <a href={el.link} target="_blank" className="underline">
+                  <a
+                    href={el.link}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="underline"
+                  >
                     посмотреть сертификат
                   </a>
                 )}
