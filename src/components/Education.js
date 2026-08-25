@@ -1,71 +1,36 @@
-function Education() {
+import { infoEducation } from "../utils/infoEducation";
+import useScrollAnimation from "../hooks/useScrollAnimation";
+
+function Education({ info }) {
+  const ref = useScrollAnimation();
   return (
-    <div>
-      <div className=" bg-slate-900 md:flex flex-row border-b-4 border-white text-white">
+    <section id="education" className="bg-slate-800  border-b-4 border-white">
+      <div
+        ref={ref}
+        className="text-white max-w-7xl ml-auto mr-auto scroll-animate"
+      >
         <div className="p-10">
-          <h3 className="text-2xl md:text-5xl font-semibold">Образование</h3>
+          <h2 className="text-2xl md:text-5xl font-semibold">Образование</h2>
           <p className="text-xl font-semibold">Где получаю знания?</p>
         </div>
-        <div>
-          <ul className="m-10">
-            <li className="mt-10 ">
+        <ul className="m-10">
+          {infoEducation.map((el) => (
+            <li className="mt-10" key={el.name}>
               <div>
-                <p>18 мая 2022г.</p>
-                <p className="text-2xl font-semibold">
-                  FreeCodeCamp - JavaScript Algorithms and Data Structures
-                </p>
-                <p>
-                  <a
-                    href="https://www.freecodecamp.org/certification/dmp91/javascript-algorithms-and-data-structures"
-                    target="_blank"
-                    className="underline"
-                  >
+                <p>{el.date}</p>
+                <p className="text-2xl font-semibold">{el.name}</p>
+                {el.link && (
+                  <a href={el.link} target="_blank" className="underline">
                     посмотреть сертификат
                   </a>
-                </p>
-                <p>
-                  В 2022 году "загорелся" сменить род деятельности - увлекся
-                  программированием. После самостоятельного изучения основ HTML
-                  и CSS выбор пал на JavaScript и FreeCodeCamp.
-                </p>
+                )}
+                <p> {el.desсription}</p>
               </div>
             </li>
-            <li className="mt-10 ">
-              <div>
-                <p>10 января 2023г.</p>
-                <p className="text-2xl font-semibold">
-                  FreeCodeCamp - Frontend Development Libraries
-                </p>
-                <p>
-                  <a
-                    href="https://www.freecodecamp.org/certification/dmp91/front-end-development-libraries"
-                    target="_blank"
-                    className="underline"
-                  >
-                    посмотреть сертификат
-                  </a>
-                </p>
-                <p>
-                  Изучив "чистый" JavaScript, захотел углубиться в один из
-                  фреймворков JS и во все, что связано с frontend.
-                </p>
-              </div>
-            </li>
-            <li className="mt-10 ">
-              <div>
-                <p>2023 по настоящее время</p>
-                <p className="text-2xl font-semibold">Самообразование</p>
-                <p>
-                  Я провожу большую часть свободного времени, изучая тонкости
-                  Web-технологий и разработки backend. Создаю приложения, читаю
-                  тематическую литературу.
-                </p>
-              </div>
-            </li>
-          </ul>
-        </div>
+          ))}
+        </ul>
       </div>
-    </div>
+    </section>
   );
 }
 export default Education;
