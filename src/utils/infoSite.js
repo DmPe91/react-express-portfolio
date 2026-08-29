@@ -6,7 +6,7 @@ export const infoSite = [
     description:
       "SPA интернет-магазина доставки еды. Реализованы каталог с фильтрацией и сортировкой, корзина с персистентным хранением состояния (localStorage), оформление заказа.",
     stack: "React, TypeScript, Redux Toolkit, React Router, Axios, SCSS",
-    site: "https://dmpe91.github.io/hot_dog_react/",
+    site: "https://dmpe91.github.io/hot_dog/",
     frontend: "https://github.com/DmPe91/hot_dog",
   },
   {
