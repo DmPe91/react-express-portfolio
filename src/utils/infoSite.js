@@ -42,15 +42,25 @@ export const infoSite = [
     backend: "https://github.com/DmPe91/telegramBot_Money",
   },
   {
-    img: "/siteImg/scooter.png",
-    name: "PERN E-commerce",
+    img: "/siteImg/lavarel_vue.png",
+    name: "Scooter43 (Laravel + Vue)",
     category: "fullstack",
     description:
-      "Магазин электросамокатов с закрытой админ-панелью. Каталог с фильтрами, корзина, система отзывов. Админка для управления товарами, пользователями и модерации заявок на сервис.",
-    stack: "React, MobX, Node.js, Express, PostgreSQL, Sequelize, JWT",
-    site: "https://el-scooter43-client.vercel.app/",
-    frontend: "https://github.com/DmPe91/el-scooter43-client",
-    backend: "https://github.com/DmPe91/el-scooter43_server",
+      "Интернет-магазин электротранспорта. REST API на Laravel, SPA на Vue 3. Каталог с фильтрацией, корзина, уведомления. Бэкенд задеплоен на Render, БД на Neon (PostgreSQL), фронт на Vercel.",
+    stack: "Laravel 13, PHP 8.3, PostgreSQL, Vue 3, Pinia, Vue Router, Axios",
+    site: "https://scooter-vue-client.vercel.app/",
+    frontend: "https://github.com/DmPe91/scooter-vue-client",
+    backend: "https://github.com/DmPe91/scooter-laravel-api",
+  },
+  {
+    img: "/siteImg/woo_vue2.png",
+    name: "Headless WooCommerce (WordPress + Vue)",
+    category: "fullstack",
+    description:
+      "Headless-магазин на Vue 3 с WooCommerce в качестве бэкенда. Каталог товаров, фильтрация по категориям и меткам, корзина через Store API. Фронтенд общается с WordPress через REST API.",
+    stack: "WordPress, WooCommerce, Vue 3, Pinia, Vue Router, Store API",
+    frontend: "https://github.com/DmPe91/woocommerce-vue-shop",
+    backend: "https://github.com/DmPe91/wp-vue-shop",
   },
   {
     category: "commercial",
