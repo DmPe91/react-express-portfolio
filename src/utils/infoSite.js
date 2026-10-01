@@ -134,4 +134,14 @@ export const infoSite = [
     stack: "WordPress, PHP, ACF, JS, SCSS, Vite",
     frontend: "https://github.com/DmPe91/designer-site",
   },
+  {
+    category: "fullstack",
+    img: "/siteImg/green-api.png",
+    name: "MAX Chat (GREEN-API)",
+    description:
+      "Веб-клиент для отправки и получения сообщений через GREEN-API (MAX). Авторизация по idInstance и apiTokenInstance, создание чата по номеру, отправка текста, опрос очереди входящих уведомлений, фильтрация по чату. Тёмная тема в стиле MAX.",
+    stack: "React 19, Vite, SCSS, Axios, GREEN-API (HTTP API)",
+    site: "https://chat-max-api.vercel.app/",
+    frontend: "https://github.com/DmPe91/chat-max-api",
+  },
 ];
