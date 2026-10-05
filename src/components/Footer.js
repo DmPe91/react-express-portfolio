@@ -25,7 +25,7 @@ function Footer() {
             >
               <img
                 className="w-5 h-5 opacity-80"
-                src="/SocialIcon/icons8-телефон-30.png"
+                src="/react-express-portfolio/SocialIcon/icons8-телефон-30.png"
                 alt="phone"
               />
               <span className="text-sm font-medium">{infoPerson.phone}</span>
@@ -36,7 +36,7 @@ function Footer() {
             >
               <img
                 className="w-5 h-5 opacity-80"
-                src="/SocialIcon/icons8-почта-50.png"
+                src="/react-express-portfolio/SocialIcon/icons8-почта-50.png"
                 alt="email"
               />
               <span className="text-sm font-medium">{infoPerson.email}</span>
@@ -50,7 +50,7 @@ function Footer() {
               >
                 <img
                   className="w-8 h-8"
-                  src="/SocialIcon/icons8-телеграм-50.png"
+                  src="/react-express-portfolio/SocialIcon/icons8-телеграм-50.png"
                   alt="telegram"
                 />
               </a>
@@ -62,7 +62,7 @@ function Footer() {
               >
                 <img
                   className="w-8 h-8"
-                  src="/SocialIcon/icons8-github-50.png"
+                  src="/react-express-portfolio/SocialIcon/icons8-github-50.png"
                   alt="github"
                 />
               </a>
@@ -74,7 +74,7 @@ function Footer() {
               >
                 <img
                   className="w-8 h-8"
-                  src="/SocialIcon/Max_logo-32x32.png"
+                  src="/react-express-portfolio/SocialIcon/Max_logo-32x32.png"
                   alt="max"
                 />
               </a>
