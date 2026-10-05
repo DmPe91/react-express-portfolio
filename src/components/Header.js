@@ -43,7 +43,7 @@ function Header() {
               >
                 <img
                   className="w-5 h-5 opacity-80"
-                  src="/SocialIcon/icons8-телефон-30.png"
+                  src="${process.env.PUBLIC_URL}/SocialIcon/icons8-телефон-30.png"
                   alt="phone"
                 />
                 <span className="text-sm font-medium">{infoPerson.phone}</span>
@@ -54,7 +54,7 @@ function Header() {
               >
                 <img
                   className="w-5 h-5 opacity-80"
-                  src="/SocialIcon/icons8-почта-50.png"
+                  src="${process.env.PUBLIC_URL}/SocialIcon/icons8-почта-50.png"
                   alt="email"
                 />
                 <span className="text-sm font-medium">{infoPerson.email}</span>
@@ -68,7 +68,7 @@ function Header() {
                 >
                   <img
                     className="w-8 h-8"
-                    src="/SocialIcon/icons8-телеграм-50.png"
+                    src="${process.env.PUBLIC_URL}/SocialIcon/icons8-телеграм-50.png"
                     alt="telegram"
                   />
                 </a>
@@ -80,7 +80,7 @@ function Header() {
                 >
                   <img
                     className="w-8 h-8"
-                    src="/SocialIcon/icons8-github-50.png"
+                    src="${process.env.PUBLIC_URL}/SocialIcon/icons8-github-50.png"
                     alt="github"
                   />
                 </a>
@@ -92,7 +92,7 @@ function Header() {
                 >
                   <img
                     className="w-8 h-8"
-                    src="/SocialIcon/Max_logo-32x32.png"
+                    src="${process.env.PUBLIC_URL}/SocialIcon/Max_logo-32x32.png"
                     alt="max"
                   />
                 </a>

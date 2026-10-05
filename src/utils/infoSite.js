@@ -1,6 +1,6 @@
 export const infoSite = [
   {
-    img: "/siteImg/food.png",
+    img: `${process.env.PUBLIC_URL}/siteImg/food.png`,
     name: "React FastFood",
     category: "fullstack", // Исправлено с fullstack, так как бэкенда здесь нет
     description:
@@ -10,7 +10,7 @@ export const infoSite = [
     frontend: "https://github.com/DmPe91/hot_dog",
   },
   {
-    img: "/siteImg/quote.png",
+    img: `${process.env.PUBLIC_URL}/siteImg/quote.png`,
     name: "MERN Quote",
     category: "fullstack",
     description:
@@ -21,7 +21,7 @@ export const infoSite = [
     backend: "https://github.com/DmPe91/randomquote_backend",
   },
   {
-    img: "/siteImg/blog.png",
+    img: `${process.env.PUBLIC_URL}/siteImg/blog.png`,
     name: "MERN Text Blog",
     category: "fullstack",
     description:
@@ -32,7 +32,7 @@ export const infoSite = [
     backend: "https://github.com/DmPe91/text_blog",
   },
   {
-    img: "/siteImg/tg.png",
+    img: `${process.env.PUBLIC_URL}/siteImg/tg.png`,
     name: "Telegram-Bot",
     category: "fullstack",
     description:
@@ -42,7 +42,7 @@ export const infoSite = [
     backend: "https://github.com/DmPe91/telegramBot_Money",
   },
   {
-    img: "/siteImg/lavarel_vue.png",
+    img: `${process.env.PUBLIC_URL}/siteImg/lavarel_vue.png`,
     name: "Scooter43 (Laravel + Vue)",
     category: "fullstack",
     description:
@@ -53,7 +53,7 @@ export const infoSite = [
     backend: "https://github.com/DmPe91/scooter-laravel-api",
   },
   {
-    img: "/siteImg/woo_vue2.png",
+    img: `${process.env.PUBLIC_URL}/siteImg/woo_vue2.png`,
     name: "Headless WooCommerce (WordPress + Vue)",
     category: "fullstack",
     description:
@@ -64,7 +64,7 @@ export const infoSite = [
   },
   {
     category: "commercial",
-    img: "/siteImg/nadhod.png",
+    img: `${process.env.PUBLIC_URL}/siteImg/nadhod.png`,
     name: "Надежный ход",
     description:
       "Кастомный модуль на PHP для динамического расчёта стоимости ворот. Интеграция системы отзывов с премодерацией.",
@@ -73,7 +73,7 @@ export const infoSite = [
   },
   {
     category: "commercial",
-    img: "/siteImg/tymenpro.png",
+    img: `${process.env.PUBLIC_URL}/siteImg/tymenpro.png`,
     name: "Ремонт Про 72",
     description:
       "Разработка интерактивного квиза (Webform + JS) для генерации лидов. Создание архитектуры переиспользуемых компонентов для 30+ посадочных страниц.",
@@ -82,7 +82,7 @@ export const infoSite = [
   },
   {
     category: "commercial",
-    img: "/siteImg/biktagirov.png",
+    img: `${process.env.PUBLIC_URL}/siteImg/biktagirov.png`,
     name: "Biktagirov Art",
     description:
       "Интеграция форм обратной связи с Telegram Bot API. Реализация сложных scroll и hover анимаций для портфолио.",
@@ -91,7 +91,7 @@ export const infoSite = [
   },
   {
     category: "commercial",
-    img: "/siteImg/polyana.png",
+    img: `${process.env.PUBLIC_URL}/siteImg/polyana.png`,
     name: "Polyana Glamping",
     description:
       "Кастомизация стороннего виджета бронирования. Сложная адаптивная вёрстка с использованием CSS Grid/Flexbox и scroll-анимаций.",
@@ -100,7 +100,7 @@ export const infoSite = [
   },
   {
     category: "commercial",
-    img: "/siteImg/ultra_cargo.png",
+    img: `${process.env.PUBLIC_URL}/siteImg/ultra_cargo.png`,
     name: "Ultra Cargo",
     description:
       "Реализация умного поиска аэропортов/городов (парсинг и кэширование данных клиента). Оптимизация шаблонизатора для 250+ страниц.",
@@ -109,7 +109,7 @@ export const infoSite = [
   },
   {
     category: "commercial",
-    img: "/siteImg/rmk.png",
+    img: `${process.env.PUBLIC_URL}/siteImg/rmk.png`,
     name: "RMK Orenburg",
     description:
       "Кастомный поиск с транслитерацией запросов (EN→RU) и учетом опечаток. Анимированный каталог продукции.",
@@ -118,7 +118,7 @@ export const infoSite = [
   },
   {
     category: "commercial",
-    img: "/siteImg/feofilakt.png",
+    img: `${process.env.PUBLIC_URL}/siteImg/feofilakt.png`,
     name: "Феофилакт Строй",
     description:
       "Многоуровневая AJAX-фильтрация каталога (Drupal Views + кастомные хуки). Оптимизация запросов к БД.",
@@ -127,7 +127,7 @@ export const infoSite = [
   },
   {
     category: "commercial",
-    img: "/siteImg/site_design.png",
+    img: `${process.env.PUBLIC_URL}/siteImg/site_design.png`,
     name: "Дизайн который продает",
     description:
       "Кастомная тема на WordPress. Интеграция ACF (Advanced Custom Fields), сборка фронтенда на Vite.",
@@ -136,7 +136,7 @@ export const infoSite = [
   },
   {
     category: "fullstack",
-    img: "/siteImg/green-api.png",
+    img: `${process.env.PUBLIC_URL}/siteImg/green-api.png`,
     name: "MAX Chat (GREEN-API)",
     description:
       "Веб-клиент для отправки и получения сообщений через GREEN-API (MAX). Авторизация по idInstance и apiTokenInstance, создание чата по номеру, отправка текста, опрос очереди входящих уведомлений, фильтрация по чату. Тёмная тема в стиле MAX.",
