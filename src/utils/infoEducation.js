@@ -1,5 +1,50 @@
 export const infoEducation = [
   {
+    date: "2024г. - по настоящее время",
+    name: "Сертификация 1С-Битрикс",
+    desсription:
+      "Официальное подтверждение навыков работы с CMS 1С-Битрикс. Изучаю архитектуру системы, разработку компонентов и работу с API.",
+    link: "https://dev.1c-bitrix.ru/learning/resume.php?ID=47234268-8149960",
+    certificates: [
+      {
+        name: "Установка и настройка",
+        file: "/react-express-portfolioCertificates/Установка и настройка.jpg",
+      },
+      {
+        name: "Контент менеджер",
+        file: "/react-express-portfolioCertificates/Контент-менеджер.jpg",
+      },
+      {
+        name: "Администратор.Базовый",
+        file: "/react-express-portfolioCertificates/Администратор. Базовый.jpg",
+      },
+      {
+        name: "Администратор.Бизнес",
+        file: "/react-express-portfolioCertificates/Администратор. Бизнес.jpg",
+      },
+      {
+        name: "Администратор.Модули",
+        file: "/react-express-portfolioCertificates/Администратор. Модули.jpg",
+      },
+      {
+        name: "Разработчик Bitrix Framework",
+        file: "/react-express-portfolioCertificates/Разработчик Bitrix Framework.jpg",
+      },
+    ],
+  },
+  {
+    date: "Октябрь 2026",
+    name: "Сертификация GREEN-API",
+    description:
+      "Официальный сертификат квалификации. Подтверждает навыки интеграции с WhatsApp API и разработки чат-ботов.",
+    certificates: [
+      {
+        name: "Разработчик GREEN-API",
+        file: "/react-express-portfolio/Certificates/green-api.jpg",
+      },
+    ],
+  },
+  {
     date: "18 мая 2022г.",
     name: "FreeCodeCamp - JavaScript Algorithms and Data Structures",
     desсription:
@@ -12,18 +57,5 @@ export const infoEducation = [
     desсription:
       "Освоив базу ванильного JavaScript, перешел к изучению современных инструментов frontend-разработки и библиотек для создания сложных интерактивных интерфейсов.",
     link: "https://www.freecodecamp.org/certification/dmp91/front-end-development-libraries",
-  },
-  {
-    date: "2024г. - по настоящее время",
-    name: "Сертификация 1С-Битрикс",
-    desсription:
-      "Официальное подтверждение навыков работы с CMS 1С-Битрикс. Изучаю архитектуру системы, разработку компонентов и работу с API.",
-    link: "https://dev.1c-bitrix.ru/learning/resume.php?ID=47234268-8149960",
-  },
-  {
-    date: "с 2023 - по настоящее время",
-    name: "Самообразование",
-    desсription:
-      "Постоянно совершенствую навыки: изучаю архитектуру Web-приложений и backend-разработку. В свободное время проектирую собственные pet-проекты, читаю профильную литературу и слежу за трендами индустрии.",
   },
 ];

@@ -32,6 +32,15 @@ export const infoSite = [
     backend: "https://github.com/DmPe91/text_blog",
   },
   {
+    category: "fullstack",
+    img: "/react-express-portfolio/siteImg/life-akpp.png",
+    name: "Life АКПП (1С-Битрикс)",
+    description:
+      "Корпоративный сайт автосервиса на 1С-Битрикс (D7). Кастомные компоненты (калькулятор стоимости, формы заявок), инфоблоки для управления контентом, интеграция с веб-формами Битрикса, централизованные настройки сайта. Разработка в Docker-окружении.",
+    stack: "1С-Битрикс (D7), PHP 8.2, JavaScript, CSS3, Docker",
+    frontend: "https://github.com/DmPe91/bx-aservice-cms",
+  },
+  {
     img: "/react-express-portfolio/siteImg/tg.png",
     name: "Telegram-Bot",
     category: "fullstack",
