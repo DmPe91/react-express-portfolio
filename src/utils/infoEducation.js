@@ -8,27 +8,27 @@ export const infoEducation = [
     certificates: [
       {
         name: "Установка и настройка",
-        file: "/react-express-portfolioCertificates/Установка и настройка.jpg",
+        file: "/react-express-portfolio/Certificates/inset.jpg",
       },
       {
         name: "Контент менеджер",
-        file: "/react-express-portfolioCertificates/Контент-менеджер.jpg",
+        file: "/react-express-portfolio/Certificates/cm.jpg",
       },
       {
         name: "Администратор.Базовый",
-        file: "/react-express-portfolioCertificates/Администратор. Базовый.jpg",
+        file: "/react-express-portfolio/Certificates/adbase.jpg",
       },
       {
         name: "Администратор.Бизнес",
-        file: "/react-express-portfolioCertificates/Администратор. Бизнес.jpg",
+        file: "/react-express-portfolio/Certificates/adbuis.jpg",
       },
       {
         name: "Администратор.Модули",
-        file: "/react-express-portfolioCertificates/Администратор. Модули.jpg",
+        file: "/react-express-portfolio/Certificates/admod.jpg",
       },
       {
         name: "Разработчик Bitrix Framework",
-        file: "/react-express-portfolioCertificates/Разработчик Bitrix Framework.jpg",
+        file: "/react-express-portfolio/Certificates/bitrix.jpg",
       },
     ],
   },
