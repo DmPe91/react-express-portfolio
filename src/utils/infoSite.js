@@ -2,7 +2,7 @@ export const infoSite = [
   {
     img: "/react-express-portfolio/siteImg/food.png",
     name: "React FastFood",
-    category: "fullstack", // Исправлено с fullstack, так как бэкенда здесь нет
+    category: "fullstack",
     description:
       "SPA интернет-магазина доставки еды. Реализованы каталог с фильтрацией и сортировкой, корзина с персистентным хранением состояния (localStorage), оформление заказа.",
     stack: "React, TypeScript, Redux Toolkit, React Router, Axios, SCSS",
@@ -39,6 +39,15 @@ export const infoSite = [
       "Корпоративный сайт автосервиса на 1С-Битрикс (D7). Кастомные компоненты (калькулятор стоимости, формы заявок), инфоблоки для управления контентом, интеграция с веб-формами Битрикса, централизованные настройки сайта. Разработка в Docker-окружении.",
     stack: "1С-Битрикс (D7), PHP 8.2, JavaScript, CSS3, Docker",
     frontend: "https://github.com/DmPe91/bx-aservice-cms",
+  },
+  {
+    category: "fullstack",
+    img: "/react-express-portfolio/siteImg/electronics-shop.png",
+    name: "Интернет-магазин электроники (1С-Битрикс)",
+    description:
+      "Полнофункциональный интернет-магазин на 1С-Битрикс с торговым каталогом. AJAX-корзина через D7 API (CatalogBasket, SaleBasket), умный фильтр с фасетными индексами, кастомные шаблоны компонентов. Разделы каталога, свойства товаров (хиты, новинки, бренды), динамические цены и скидки.",
+    stack: "1С-Битрикс (D7), PHP 8.2, JavaScript, CSS3, MySQL",
+    frontend: "https://github.com/DmPe91/bx-electronics-cms",
   },
   {
     img: "/react-express-portfolio/siteImg/tg.png",
